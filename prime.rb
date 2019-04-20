@@ -7,5 +7,6 @@ def prime?(number)
   else 
     false
   end
+  binding.pry
 end
 end 
