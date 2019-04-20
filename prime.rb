@@ -1,4 +1,6 @@
 # Add  code here!
+require "pry"
+
 def prime?(number)
   range = (1..1000)
   range.each do |num|
