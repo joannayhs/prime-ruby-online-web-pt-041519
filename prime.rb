@@ -2,7 +2,7 @@
 require "pry"
 
 def prime?(number)
-  range = (1..1000)
+  range = (2..1000)
   range.each do |num|
   if number > 1 && number % num != 0 || number == 2 
     return true 
