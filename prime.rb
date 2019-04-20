@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(number)
-  range = (0..Inf)
+  range = (0..)
   if number > 1 && number % range == 0 
     true 
   else 
