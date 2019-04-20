@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(number)
-  if number > 1 && number % Inf == 0 
+  if number > 1 && number %  == 0 
     true 
   else 
     false
