@@ -6,7 +6,7 @@ def prime?(number)
     false 
   else 
     (2..number-1).to_a.all? do |divisor|
-      number % divisor !0 
+      number % divisor != 0 
     end 
   end 
 end 
